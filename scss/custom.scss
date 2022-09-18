@@ -6,26 +6,69 @@
 // Default variable overrides
 // modify to get own color-scheme
 
-$primary:    #0074d9;
-$secondary:  #66ffff;
-$success:    #cc99ff;
-$info:       #ff6600;
-$warning:    #cc0000;
-$danger:     #ff4136;
-$light:      #999966;
-$dark:       #003300;
+// $primary:    #0074d9;
+// $secondary:  #66ffff;
+// $success:    #cc99ff;
+// $info:       #F1FAFF;
+// $warning:    #cc0000;
+// $danger:     #ff4136;
+// $light:      #F8F9FA;
+// $dark:       #212529;
 
-$theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
-);
+// $theme-colors: (
+//   "primary":    $primary,
+//   "secondary":  $secondary,
+//   "success":    $success,
+//   "info":       $info,
+//   "warning":    $warning,
+//   "danger":     $danger,
+//   "light":      $light,
+//   "dark":       $dark
+// );
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+
+//@import '../node_modules/mdb-ui-kit/css/mdb.min.css';
+
+a:hover {
+    background-color: orangered;
+}
+
+li:hover {
+    background-color: orangered;
+}
+
+.list-style-type-square {
+    list-style-type: square;
+}
+
+.list-style-position-inside {
+    list-style-position: inside;
+}
+
+.background-color-aquamarine {
+    background-color: aquamarine;
+}
+
+.border-style-groove {
+    border-style: groove;
+}
+
+.border-width-thick {
+    border-width: thick;
+}
+
+.border-color-blue {
+    border-color: blue;
+}
+
+.border-style-rlsolid-tbnone {
+    border-style: none solid;
+}
+
+.border-radius-15 {
+    border-radius: 15px;
+}
